@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	{% include "cssjs.html"%}
+</head>
+<body>
+<h1 style="visibility: {% if error %} visible; {% else %} hidden; {% endif %}">{{error}}</h1>
+<form method="post" autocomplete="false">
+  <div class="form-group">
+    <label for="InputEmail">Email address</label>
+    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" name="login">
+    <small id="emailHelp" class="form-text text-muted" >Введите свой длинный как мой пепперони email</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    
+  </div>
+  <button type="submit" class="btn btn-primary">Войти в хату</button>
+</form>
+</body>
+</html>
