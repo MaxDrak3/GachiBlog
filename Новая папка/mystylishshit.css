@@ -1,0 +1,26 @@
+body {
+	background: #C9FFFB;
+	background: -moz-linear-gradient(left, #C9FFFB 0%, #BFBDFF 50%, #FFC4F5 100%);
+	background: -webkit-linear-gradient(left, #C9FFFB 0%, #BFBDFF 50%, #FFC4F5 100%);
+	background: linear-gradient(to right, #C9FFFB 0%, #BFBDFF 50%, #FFC4F5 100%);
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+h1 {
+}
+
+#demotext {
+	color: #FFF;
+	background-color: #232323;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
